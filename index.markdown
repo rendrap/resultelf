@@ -1,0 +1,149 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+image: assets/images/screenshot-2020-05-07-at-16-12-32_orig.png
+---
+<div class="banner-wrap">
+  <div class="wsite-elements wsite-not-footer wsite-header-elements">
+    <div class="wsite-section-wrap">
+      <div class="wsite-section wsite-header-section wsite-section-bg-color" style="height: 500px;vertical-align: bottom;background-color: #001136;background-image: none;is_customized: 1;">
+        <div class="wsite-section-content">
+          <div class="container">
+            <div class="banner">
+              <div class="wsite-section-elements">
+                <h2 class="wsite-content-title">Get better Results faster<font color="#d2ea00">.<br /></font>&nbsp;Data to Action &#8203;in real-time&#8203;<font color="#e5f60a">.</font>
+                </h2>
+                <div style="text-align:right;">
+                  <div style="height: 10px; overflow: hidden;"></div>
+                  <a class="wsite-button wsite-button-small wsite-button-normal" href="get-in-touch.html">
+                    <span class="wsite-button-inner">get in touch!</span>
+                  </a>
+                  <div style="height: 10px; overflow: hidden;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=""></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-wrap">
+  <div id="wsite-content" class="wsite-elements wsite-not-footer">
+    <div class="wsite-section-wrap">
+      <div class="wsite-section wsite-body-section wsite-background-1" style="height: 448px;">
+        <div class="wsite-section-content">
+          <div class="container">
+            <div class="wsite-section-elements">
+              <div class="wsite-spacer" style="height:50px;"></div>
+              <h2 class="wsite-content-title" style="text-align:center;">
+                <font color="#001136" size="6">The road from Data to Actions is&nbsp;treacherous</font>
+              </h2>
+              <div>
+                <div class="wsite-multicol">
+                  <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+                    <table class="wsite-multicol-table">
+                      <tbody class="wsite-multicol-tbody">
+                        <tr class="wsite-multicol-tr">
+                          <td class="wsite-multicol-col" style="width:20.42807790553%; padding:0 15px;">
+                            <div class="wsite-spacer" style="height:50px;"></div>
+                          </td>
+                          <td class="wsite-multicol-col" style="width:65.90077299441%; padding:0 15px;">
+                            <div class="paragraph">
+                              <font size="5"><br />&#8203;From Big Data<br />to Analysis and&nbsp;Modeling&nbsp;<br />to Insight Identification<br />to Action<br />to Results</font>
+                            </div>
+                          </td>
+                          <td class="wsite-multicol-col" style="width:13.67114910006%; padding:0 15px;">
+                            <div class="wsite-spacer" style="height:50px;"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="wsite-multicol">
+                  <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+                    <table class="wsite-multicol-table">
+                      <tbody class="wsite-multicol-tbody">
+                        <tr class="wsite-multicol-tr">
+                          <td class="wsite-multicol-col" style="width:19.529664241525%; padding:0 15px;">
+                            <div class="wsite-spacer" style="height:50px;"></div>
+                          </td>
+                          <td class="wsite-multicol-col" style="width:55.16663244632%; padding:0 15px;">
+                            <div class="paragraph" style="text-align:center;">
+                              <font color="#001136" size="4">We help businesses get better Results faster. We do this by speeding up the process of going from Data to Action though advanced Data Science methods.</font>
+                            </div>
+                          </td>
+                          <td class="wsite-multicol-col" style="width:25.303703312155%; padding:0 15px;">
+                            <div class="wsite-spacer" style="height:50px;"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="wsite-spacer" style="height:69px;"></div>
+              <div class="wsite-spacer" style="height:50px;"></div>
+              <h2 class="wsite-content-title" style="text-align:left;">
+                <font size="6">Our Approach</font>
+              </h2>
+              <div>
+                <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+                  <a>
+                    <img src="assets/images/screenshot-2020-05-07-at-16-12-32_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+                  </a>
+                  <div style="display:block;font-size:90%"></div>
+                </div>
+              </div>
+              <div class="paragraph" style="text-align:left;">We believe that every customer is in a unique situation. So we take a unique consultative approach developed by mixing Transformation, Design, Data Science and Digital methodologies.</div>
+              <h2 class="wsite-content-title">Our Solutions</h2>
+              <div class="wsite-spacer" style="height:10px;"></div>
+              <h2 class="wsite-content-title">
+                <font size="5">Consulting Engagements</font>
+              </h2>
+              <div class="paragraph">You have a problem or see an opportunity where Data Science can help? We go from Goal Definition to e2e&nbsp;<span style="color:rgb(0, 17, 54)">AI&nbsp;</span>Solutions with you to make an impact.</div>
+              <h2 class="wsite-content-title">
+                <font size="5">Optimization as a Service</font>
+              </h2>
+              <div class="paragraph">Do you believe you could make better decision at scale? Meet your new AI decision support engine. Our Optimization as a Service solutions leverages your existing data and digital platforms by using our world-class AI engine to deliver&nbsp; real-time decision recommendations for your team. Make AI part of your team.</div>
+              <h2 class="wsite-content-title">
+                <font size="5">Action as a Service</font>
+              </h2>
+              <div class="paragraph">Would you like to free up time of your team members yet make more impact than you are now producing? Meet our Action as a Service solution. We connect your Data not only to our AI engine to produce an impactful decision recommendation. But we connect that decision your existing action systems. Making real-time AI powered actions.</div>
+              <div class="wsite-spacer" style="height:50px;"></div>
+              <blockquote style="text-align:center;"><span></span>AI&rsquo;s true potential will emerge: not in doing the same thing better, faster, and cheaper but by doing new things altogether. This is where AI will disrupt industries the most.<span><em>&nbsp;<br /><br />-&nbsp;</em></span>S. Ransbotham,&nbsp;&nbsp;MIT Sloan<br /></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wsite-section-wrap">
+      <div class="wsite-section wsite-body-section wsite-background-2">
+        <div class="wsite-section-content">
+          <div class="container">
+            <div class="wsite-section-elements">
+              <div class="wsite-spacer" style="height:50px;"></div>
+              <h2 class="wsite-content-title" style="text-align:center;">Get better Results faster.<br /><br />Go from Data to Action in real-time<font color="#001136">&#8203;.</font>
+              </h2>
+              <div class="wsite-spacer" style="height:10px;"></div>
+              <div class="wsite-spacer" style="height:50px;"></div>
+              <div style="text-align:center;">
+                <div style="height: 10px; overflow: hidden;"></div>
+                <a class="wsite-button wsite-button-small wsite-button-normal" href="get-in-touch.html">
+                  <span class="wsite-button-inner">get in touch!</span>
+                </a>
+                <div style="height: 10px; overflow: hidden;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

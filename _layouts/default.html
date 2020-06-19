@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="header-page wsite-page-index sticky-nav-on full-width-on header-scroll-animate-off  wsite-theme-light fade-in">
+
+    <div class="wrapper">
+      {%- include header.html -%}
+      {{ content }}
+      {%- include mobile-nav.html -%}
+    </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

@@ -1,0 +1,27 @@
+title: ResultElf
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  From Big Data to Analysis and Modeling  to Insight Identification to Action to Results
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.resultelf.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+google_analytics: UA-7870337-1
+
+# Build settings
+# theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
