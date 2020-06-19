@@ -37,7 +37,7 @@ layout: default
             <div class="wsite-section-elements">
               <div class="wsite-spacer" style="height:50px;"></div>
               <h2 class="wsite-content-title" style="text-align:center;">
-                <font color="#001136" size="6">The road from Data to Actions is&nbsp;treacherous</font>
+                <font color="#001136" size="6">{{page.section-title}}</font>
               </h2>
               <div>
                 <div class="wsite-multicol">
@@ -50,7 +50,19 @@ layout: default
                           </td>
                           <td class="wsite-multicol-col" style="width:65.90077299441%; padding:0 15px;">
                             <div class="paragraph">
-                              <font size="5"><br />&#8203;From Big Data<br />to Analysis and&nbsp;Modeling&nbsp;<br />to Insight Identification<br />to Action<br />to Results</font>
+                              <font size="5">
+                                {% for item in page.multi-column %}
+                                <br />{{item.text}}
+                                {% endfor %}
+
+                                <!--
+                                <br />&#8203;From Big Data
+                                <br />to Analysis and&nbsp;Modeling&nbsp;
+                                <br />to Insight Identification
+                                <br />to Action
+                                <br />to Results
+                                -->
+                              </font>
                             </div>
                           </td>
                           <td class="wsite-multicol-col" style="width:13.67114910006%; padding:0 15px;">
