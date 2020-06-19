@@ -1,5 +1,5 @@
 ---
-title : Homepage
+title: Homepage
 layout: homepage
 image: assets/images/screenshot-2020-05-07-at-16-12-32_orig.png
 header-text-1: Get better Results faster
