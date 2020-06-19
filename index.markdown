@@ -11,10 +11,5 @@ texts:
 - to Analysis and&nbsp;Modeling&nbsp;
 - to Action
 - to Results
-multi-column:
-- text: "&#8203;From Big Data"
-- text: to Analysis and&nbsp;Modeling&nbsp;
-- text: to Action
-- text: to Results yeaah
 ---
 
