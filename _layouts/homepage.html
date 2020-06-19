@@ -51,8 +51,8 @@ layout: default
                           <td class="wsite-multicol-col" style="width:65.90077299441%; padding:0 15px;">
                             <div class="paragraph">
                               <font size="5">
-                                {% for item in page.multi-column %}
-                                <br />{{item.text}}
+                                {% for text in page.texts %}
+                                <br />{{text}}
                                 {% endfor %}
 
                                 <!--

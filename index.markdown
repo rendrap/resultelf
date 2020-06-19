@@ -8,9 +8,9 @@ header-text-2: "&nbsp;Data to Action &#8203;in real-time&#8203;"
 button-text: get in touch!
 
 section-title: "The road from Data to Actions is&nbsp;treacherous"
-multi-column:
-  - text: "&#8203;From Big Data"
-  - text: "to Analysis and&nbsp;Modeling&nbsp;"
-  - text: to Action
-  - text: to Results yeaah
+texts:
+  - "&#8203;From Big Data"
+  - "to Analysis and&nbsp;Modeling&nbsp;"
+  - to Action
+  - to Results
 ---
