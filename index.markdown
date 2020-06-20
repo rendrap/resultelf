@@ -22,5 +22,14 @@ solutions:
   - sub-txt: Do you believe you could make better decision at scale? Meet your new AI decision support engine. Our Optimization as a Service solutions leverages your existing data and digital platforms by using our world-class AI engine to deliver&nbsp; real-time decision recommendations for your team. Make AI part of your team.
   - sub-title: Action as a Service
   - sub-txt: Would you like to free up time of your team members yet make more impact than you are now producing? Meet our Action as a Service solution. We connect your Data not only to our AI engine to produce an impactful decision recommendation. But we connect that decision your existing action systems. Making real-time AI powered actions.
+
+quote-txt: "AI&rsquo;s true potential will emerge: not in doing the same thing better, faster, and cheaper but by doing new things altogether. This is where AI will disrupt industries the most.<span><em>&nbsp;<br /><br />-&nbsp;</em></span>S. Ransbotham,&nbsp;&nbsp;MIT Sloan"
+
+bottom-header1: Get better Results faster.
+bottom-header2: Go from Data to Action in real-time
+bottom-btn-txt: get in touch!
+
+footer-txt:
+footer-btn-txt: Get in touch!
 ---
 
