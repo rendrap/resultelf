@@ -11,6 +11,7 @@ texts:
 - to Analysis and&nbsp;Modeling&nbsp;
 - to Action
 - to Results
-paragraph-txt: We help businesses get better Results faster. We do this by speeding up the process of going from Data to Action though advanced Data Science methods.
+paragraph-txt: We help businesses get better Results faster. We do this by speeding
+  up the process of going from Data to Action though advanced Data Science methods.
 ---
 
