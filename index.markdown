@@ -11,9 +11,12 @@ texts:
 - to Analysis and&nbsp;Modeling&nbsp;
 - to Action
 - to Results
-paragraph-txt: We help businesses get better Results faster. We do this by speeding up the process of going from Data to Action though advanced Data Science methods.
+paragraph-txt: We help businesses get better Results faster. We do this by speeding
+  up the process of going from Data to Action though advanced Data Science methods.
 approach-title: Our Approach
-approach-txt: We believe that every customer is in a unique situation. So we take a unique consultative approach developed by mixing Transformation, Design, Data Science and Digital methodologies.
+approach-txt: We believe that every customer is in a unique situation. So we take
+  a unique consultative approach developed by mixing Transformation, Design, Data
+  Science and Digital methodologies.
 solution-title: Our Solutions
 solutions:
   - sub-title: Consulting Engagements
@@ -29,7 +32,7 @@ bottom-header1: Get better Results faster.
 bottom-header2: Go from Data to Action in real-time
 bottom-btn-txt: get in touch!
 
-footer-txt:
+footer-txt: Interested in getting better Results faster? We would love to have a conversation!
 footer-btn-txt: Get in touch!
 ---
 
