@@ -3,15 +3,15 @@
 
   {%- include head.html -%}
 
-  <body class="header-page wsite-page-index sticky-nav-on full-width-on header-scroll-animate-off  wsite-theme-light fade-in">
+  <body class="{{page.body-class}}">
 
     <div class="wrapper">
       {%- include header.html -%}
       {{ content }}
-      {%- include mobile-nav.html -%}
+      {%- include footer.html footer-txt=page.footer-txt btn-txt=page.footer-btn-txt -%}
     </div>
-
-    {%- include footer.html footer-txt=page.footer-txt btn-txt=page.footer-btn-txt -%}
+    {%- include mobile-nav.html -%}
+    <script type="text/javascript" src="{{ "assets/js/custom.js" | relative_url }}"></script>
 
   </body>
 

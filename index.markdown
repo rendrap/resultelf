@@ -1,6 +1,7 @@
 ---
 title: Homepage
 layout: homepage
+body-class: header-page wsite-page-index sticky-nav-on full-width-on header-scroll-animate-off  wsite-theme-light fade-in collapse
 image: assets/images/screenshot-2020-05-07-at-16-12-32_orig.png
 header1: Get better Results faster
 header2: "&nbsp;Data to Action &#8203;in real-time&#8203;"
@@ -20,15 +21,15 @@ approach-txt: We believe that every customer is in a unique situation. So we tak
 solution-title: Our Solutions
 solutions:
 - sub-title: Consulting Engagements
-- sub-txt: You have a problem or see an opportunity where Data Science can help? We
+  sub-txt: You have a problem or see an opportunity where Data Science can help? We
     go from Goal Definition to e2e&nbsp;AI&nbsp;Solutions with you to make an impact.
 - sub-title: Optimization as a Service
-- sub-txt: Do you believe you could make better decision at scale? Meet your new AI
+  sub-txt: Do you believe you could make better decision at scale? Meet your new AI
     decision support engine. Our Optimization as a Service solutions leverages your
     existing data and digital platforms by using our world-class AI engine to deliver&nbsp;
     real-time decision recommendations for your team. Make AI part of your team.
 - sub-title: Action as a Service
-- sub-txt: Would you like to free up time of your team members yet make more impact
+  sub-txt: Would you like to free up time of your team members yet make more impact
     than you are now producing? Meet our Action as a Service solution. We connect
     your Data not only to our AI engine to produce an impactful decision recommendation.
     But we connect that decision your existing action systems. Making real-time AI

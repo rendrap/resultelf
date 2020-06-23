@@ -1,0 +1,135 @@
+---
+layout: default
+---
+<div class="main-wrap">
+  <div id="wsite-content" class="wsite-elements wsite-not-footer">
+    <div class="wsite-section-wrap">
+      <div class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-3" style="height: 202px;background-color: #001136;background-image: none;">
+        <div class="wsite-section-content">
+          <div class="container">
+            <div class="wsite-section-elements">
+              <div class="wsite-spacer" style="height:42px;"></div>
+              <div>
+                <div class="wsite-multicol">
+                  <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+                    <table class="wsite-multicol-table">
+                      <tbody class="wsite-multicol-tbody">
+                        <tr class="wsite-multicol-tr">
+                          <td class="wsite-multicol-col" style="width:21.808303499442%; padding:0 15px;">
+                            <div class="wsite-spacer" style="height:50px;"></div>
+                          </td>
+                          <td class="wsite-multicol-col" style="width:57.370972651041%; padding:0 15px;">
+                            <h2 class="wsite-content-title">
+                              <font size="7" color="#ffffff">{{page.title}}</font><font color="#f8c91c"><font size="7">.</font>
+                              </font>
+                            </h2>
+                            <div class="paragraph">
+                              <font color="#d5d5d5">{{page.header1}}</font>
+                            </div>
+                          </td>
+                          <td class="wsite-multicol-col" style="width:20.820723849517%; padding:0 15px;">
+                            <div class="wsite-spacer" style="height:50px;"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="wsite-spacer" style="height:50px;"></div>
+              <div style="text-align:right;">
+                <div style="height: 10px; overflow: hidden;"></div>
+                <a class="wsite-button wsite-button-small wsite-button-normal" href="/get-in-touch.html">
+                  <span class="wsite-button-inner">{{page.button-txt}}</span>
+                </a>
+                <div style="height: 10px; overflow: hidden;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wsite-section-wrap">
+      <div class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-4" style="height: 423px;background-color: #ffffff;background-image: none;is_customized: 1;">
+        <div class="wsite-section-content">
+          <div class="container">
+            <div class="wsite-section-elements">
+              <h2 class="wsite-content-title">{{page.approach-title}}</h2>
+              <div>
+                <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+                  <a>
+                    <img src="{{ page.image-1 | relative_url }}" alt="Picture" style="width:auto;max-width:100%">
+                  </a>
+                  <div style="display:block;font-size:90%"></div>
+                </div>
+              </div>
+              <div class="paragraph">
+                <span style="color:rgb(0, 17, 54)">{{page.approach-txt}}</span><br>
+
+                {% for approach in page.approaches %}
+                  <strong>{{approach.appr-title}}</strong>
+                  - {{approach.appr-txt}}
+                  <br>
+                {% endfor %}
+
+               </div>
+              <h2 class="wsite-content-title">{{page.data-title}}</h2>
+              <div>
+                <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+                  <a>
+                    <img src="{{ "assets/images/screenshot-2020-05-26-at-14-47-25.png?1590754751" | relative_url }}" alt="Picture" style="width:704;max-width:100%">
+                  </a>
+                  <div style="display:block;font-size:90%"></div>
+                </div>
+              </div>
+              <h2 class="wsite-content-title">{{page.our-solution-title}}</h2>
+              <div class="wsite-spacer" style="height:50px;"></div>
+              <div>
+                <div class="wsite-multicol">
+                  <div class="wsite-multicol-table-wrap" style="margin:0 -25px;">
+                    <table class="wsite-multicol-table">
+                      <tbody class="wsite-multicol-tbody">
+                        <tr class="wsite-multicol-tr">
+
+                          {% for solution in page.solutions %}
+                            <td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 25px;">
+                            <h2 class="wsite-content-title">
+                              <font size="5">{{solution.sol-title}}</font>
+                            </h2>
+                            <div class="paragraph"><span style="color:rgb(0, 17, 54)">{{solution.sol-txt}}</span></div>
+                            <div>
+                              <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">
+                                <a>
+                                  <img src="{{ "assets/images/screenshot-2020-05-07-at-16-53-36_orig.png" | relative_url }}" alt="Picture" style="width:auto;max-width:100%">
+                                </a>
+                                <div style="display:block;font-size:90%"></div>
+                              </div>
+                            </div>
+                          </td>
+                          {% endfor %}
+
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="wsite-spacer" style="height:77px;"></div>
+              <h2 class="wsite-content-title" style="text-align:center;">{{page.bottom-header1}}<br>
+                <br>{{page.bottom-header2}}<font color="#001136">&#8203;.</font>
+              </h2>
+              <div style="text-align:center;">
+                <div style="height: 10px; overflow: hidden;"></div>
+                <a class="wsite-button wsite-button-small wsite-button-normal" href="/get-in-touch.html">
+                  <span class="wsite-button-inner">{{page.bottom-btn-txt}}</span>
+                </a>
+                <div style="height: 10px; overflow: hidden;"></div>
+              </div>
+              <div class="wsite-spacer" style="height:50px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
