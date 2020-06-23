@@ -1,7 +1,8 @@
 ---
 title: Homepage
 layout: homepage
-body-class: header-page wsite-page-index sticky-nav-on full-width-on header-scroll-animate-off  wsite-theme-light fade-in collapse
+body-class: header-page wsite-page-index sticky-nav-on full-width-on header-scroll-animate-off  wsite-theme-light
+  fade-in collapse
 image: assets/images/screenshot-2020-05-07-at-16-12-32_orig.png
 header1: Get better Results faster
 header2: "&nbsp;Data to Action &#8203;in real-time&#8203;"
