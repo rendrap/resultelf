@@ -22,7 +22,6 @@ approaches:
   appr-txt: we have the latest and greatest Data Science at our disposal
 - appr-title: Digital
   appr-txt: we know how to bring AI solutions to life in an agile way
-
 data-title: Data is the Greatest Asset of any Business
 our-solution-title: Our Solutions.
 solutions:
