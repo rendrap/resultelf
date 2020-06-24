@@ -1,6 +1,5 @@
----
 title: ResultElf
-timezone: UTC
+timezone: Europe/Helsinki
 collections:
   posts:
     title: Posts
@@ -8,13 +7,25 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@example.com
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
+
 description: From Big Data to Analysis and Modeling  to Insight Identification to
   Action to Results
-baseurl: 
+baseurl:
 url: https://www.resultelf.com
-twitter_username: jekyllrb
-github_username: jekyll
+
 google_analytics: UA-7870337-1
 plugins:
 - jekyll-sitemap
