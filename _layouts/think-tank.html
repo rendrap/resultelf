@@ -45,7 +45,7 @@ layout: default
                         </h2>
                         <p class="blog-date">
                           <span class="date-text">
-                            {{page.section-date}}
+                            {{page.section-date-txt}}
                           </span>
                         </p>
                         <p class="blog-comments">
@@ -72,14 +72,16 @@ layout: default
                             <div style="display:block;font-size:90%"></div>
                           </div>
                         </div>
-                        <div class="paragraph"><span style="color:rgb(0, 17, 54)">In order to better understand intelligence, whether human or not, it pays to attempt to widen one’s horizons. When I prepared this presentation, I read a very interesting book attempting to do just that. It was about the astonishing intelligence exhibited by octopuses, the denizens of the deep. The author, Peter Godfrey-Smith, studied these creatures off the coast of Australia for years and showed how different they were.</span><br><br><span style="color:rgb(0, 17, 54)">Their evolution diverged from ours (we are vertebrates, they are invertebrates) more than 500 million years ago. They share virtually nothing with us, and to add insult to injury, only live for about 3 years. It is a mystery why they need intelligence, what was the evolutionary&nbsp;pressure that made them intelligent.</span><br><span style="color:rgb(0, 17, 54)">&#8203;</span><br><span style="color:rgb(0, 17, 54)">What we are seeing today is another species of intelligence. Yes, artificial intelligence is weird, and wonderful, just like these deep-sea creatures. And only just now starting on their own journey towards… who knows?</span></div>
-                        <div class="paragraph"><strong>Dr Sam Sandqvist, our Chief AI Scientist</strong>, will be introducing a series of posts on artificial intelligence to make the concept familiar to you. This will be followed by more technical ones, on neural networks, genetic algorithms, mathematical optimisation, linear and logistic regression, and so on.</div>
+                        <div class="paragraph">{{page.p3-text | markdownify}}</div>
+                        <div class="paragraph">{{page.p4-text | markdownify}}</div>
                       </div>
                       <div class="blog-social  ">
                         <div class="blog-social-item blog-fb-like">
                           <fb:like href="https://www.resultelf.com/1/post/2020/05/industrial-revolution-40.html" width="90" layout="button_count" action="like" show_faces="false" share="false" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=190291501407&amp;container_width=0&amp;href=https%3A%2F%2Fwww.resultelf.com%2F1%2Fpost%2F2020%2F05%2Findustrial-revolution-40.html&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=90"><span style="vertical-align: bottom; width: 71px; height: 20px;"><iframe name="f198006f84af0fc" width="90px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=190291501407&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2aa47cd6c006f4%26domain%3Dwww.resultelf.com%26origin%3Dhttps%253A%252F%252Fwww.resultelf.com%252Fff01108998aa98%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.resultelf.com%2F1%2Fpost%2F2020%2F05%2Findustrial-revolution-40.html&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;width=90" style="border: none; visibility: visible; width: 71px; height: 20px;" class=""></iframe></span></fb:like>
                         </div>
-                        <div class="blog-social-item"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 60px; height: 20px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.751466924564365530b311cd28fbf79b.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fwww.resultelf.com%2Fthink-tank&amp;size=m&amp;text=What%20is%20Artificial%20Intelligence%20Anyway%3F%20-%20ResultElf&amp;time=1592952681225&amp;type=share&amp;url=https%3A%2F%2Fwww.resultelf.com%2F1%2Fpost%2F2020%2F05%2Findustrial-revolution-40.html" data-url="https://www.resultelf.com/1/post/2020/05/industrial-revolution-40.html"></iframe></div>
+                        <div class="blog-social-item">
+                          <a class="twitter-share-button" href="https://twitter.com/intent/tweet"> Tweet</a>
+                        </div>
                         <div style="clear:both"></div>
                       </div>
                       <div class="blog-comments-bottom">
@@ -94,22 +96,22 @@ layout: default
                 <div id="111413422157155764-sidebar" class="column-blog">
                   <div class="blog-sidebar-separator">
                     <ul id="111413422157155764-sidebar-list" class="columnlist-blog" style="margin:0; padding: 0;">
-                      <h2 class="blog-author-title">Think tank</h2>
-                      <p>This is our blog. Our team loves to share what we know and predict.</p>
-                      <h2 class="blog-archives-title">Archives</h2>
+                      <h2 class="blog-author-title">{{page.sidebar-think-tank}}</h2>
+                      <p>{{page.sidebar-txt}}</p>
+                      <h2 class="blog-archives-title">{{page.archieves-title}}</h2>
                       <p class="blog-archive-list">
-                        <a href="/think-tank/archives/05-2020" class="blog-link">May 2020</a>
+                        <a href="{{page.sidebar-archieves-link-url}}" class="blog-link">{{page.sidebar-archieves-link-txt}}</a>
                         <br>
                       </p>
-                      <h2 class="blog-category-title">Categories</h2>
+                      <h2 class="blog-category-title">{{page.sidebar-categories}}</h2>
                       <p class="blog-category-list">
-                        <a href="/think-tank/category/all" class="blog-link">All</a>
+                        <a href="{{page.sidebar-categories-url}}" class="blog-link">All</a>
                         <br>
                       </p>
                       <p class="blog-feed-link">
                         <link href="" rel="alternate" type="application/rss+xml" title="RSS">
-                        <a href="/1/feed">
-                          <img src="//cdn2.editmysite.com/images/old/bg_feed.gif">
+                        <a href="{{page.feed-url}}">
+                          <img src="{{ "assets/images/bg_feed.gif" | relative_url}}">
                           RSS Feed
                         </a>
                       </p>
