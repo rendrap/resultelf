@@ -13,6 +13,16 @@ approach-txt: 'We believe that every customer is in a unique situation. So we ta
   a unique consultative approach developed by mixing Transformation, Design, Data
   Science and Digital methodologies. This power-house of an approach comes from our
   mix of expertise:'
+approaches:
+- appr-title: Transformation
+  appr-txt: we know how to make impact stick
+- appr-title: Design
+  appr-txt: we know how to find creative, user-centered solutions to complex problems
+- appr-title: Data Science
+  appr-txt: we have the latest and greatest Data Science at our disposal
+- appr-title: Digital
+  appr-txt: we know how to bring AI solutions to life in an agile way
+
 data-title: Data is the Greatest Asset of any Business
 our-solution-title: Our Solutions.
 solutions:
