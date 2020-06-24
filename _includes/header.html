@@ -10,7 +10,8 @@
       <div class="nav desktop-nav">
         <ul class="wsite-menu-default">
         {% for item in site.data.navs.navs-menu %}
-          <li id="{% if item.url == page.url %}active{% endif %}" class="wsite-menu-item-wrap {% if item.url == page.url %}active{% endif %}">
+        {% assign current = page.url | downcase | split: '/' %}
+          <li id="{% if item.url contains current[1] %}active{% endif %}" class="wsite-menu-item-wrap {% if item.url == page.url %}active{% endif %}">
             <a href="{{ item.url }}" class="wsite-menu-item" style="position: relative;">{{ item.title }}</a>
           </li>
         {% endfor %}

@@ -2,13 +2,13 @@ navs-menu:
 - title: Home
   url: /
 - title: Solutions
-  url: /solutions.html
+  url: /solutions
 - title: Think Tank
-  url: /think-tank.html
+  url: /think-tank
 - title: Partnerships
-  url: /partnerships.html
+  url: /partnerships
 - title: Get in Touch!
-  url: /get-in-touch.html
+  url: /get-in-touch
 - title: About
-  url: /about.html
+  url: /about
 
