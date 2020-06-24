@@ -1,3 +1,4 @@
+---
 title: ResultElf - TEST
 timezone: Europe/Helsinki
 collections:
@@ -20,12 +21,10 @@ defaults:
   values:
     layout: page
 permalink: pretty
-
 description: From Big Data to Analysis and Modeling  to Insight Identification to
   Action to Results
-baseurl:
+baseurl: 
 url: https://www.resultelf.com
-
 google_analytics: UA-7870337-1
 plugins:
 - jekyll-sitemap
