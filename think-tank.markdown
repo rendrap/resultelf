@@ -8,7 +8,6 @@ image-2: assets/images/screenshot-2020-06-05-at-17-07-08_orig.png
 header1: We all sometimes need a Tank to Think
 header2: "​So here is our Think Tank"
 button-txt: get in touch!
-
 sidebar-think-tank: Think tank
 sidebar-txt: This is our blog. Our team loves to share what we know and predict.
 sidebar-archieves-title: Archives
@@ -17,7 +16,6 @@ sidebar-archieves-link-txt: May 2020
 sidebar-categories: Categories
 sidebar-categories-url: "/think-tank"
 feed-url: "/1/feed.xml"
-
 section-title: What is Artificial Intelligence Anyway?
 section-date-txt: 7/5/2020
 paragraph-bold: Since intelligence is a nebulous concept, it is clear the artificial
@@ -70,8 +68,10 @@ p3-text: |-
   Their evolution diverged from ours (we are vertebrates, they are invertebrates) more than 500 million years ago. They share virtually nothing with us, and to add insult to injury, only live for about 3 years. It is a mystery why they need intelligence, what was the evolutionary&nbsp;pressure that made them intelligent.
 
   What we are seeing today is another species of intelligence. Yes, artificial intelligence is weird, and wonderful, just like these deep-sea creatures. And only just now starting on their own journey towards… who knows?
-p4-text: |-
-  **Dr Sam Sandqvist, our Chief AI Scientist**, will be introducing a series of posts on artificial intelligence to make the concept familiar to you. This will be followed by more technical ones, on neural networks, genetic algorithms, mathematical optimisation, linear and logistic regression, and so on.
+p4-text: "**Dr Sam Sandqvist, our Chief AI Scientist**, will be introducing a series
+  of posts on artificial intelligence to make the concept familiar to you. This will
+  be followed by more technical ones, on neural networks, genetic algorithms, mathematical
+  optimisation, linear and logistic regression, and so on."
 footer-txt: Interested in getting better Results faster? We would love to have a conversation!
 footer-btn-txt: Get in touch!
 ---
